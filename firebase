@@ -1,0 +1,23 @@
+<!-- The core Firebase JS SDK is always required and must be listed first -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-app.js"></script>
+
+<!-- TODO: Add SDKs for Firebase products that you want to use
+     https://firebase.google.com/docs/web/setup#available-libraries -->
+<script src="https://www.gstatic.com/firebasejs/7.14.4/firebase-analytics.js"></script>
+
+<script>
+  // Your web app's Firebase configuration
+  var firebaseConfig = {
+    apiKey: "AIzaSyBplVcvQcsGmhbwmQUV_w52PCHDgneQlKQ",
+    authDomain: "plantamagotchi.firebaseapp.com",
+    databaseURL: "https://plantamagotchi.firebaseio.com",
+    projectId: "plantamagotchi",
+    storageBucket: "plantamagotchi.appspot.com",
+    messagingSenderId: "864933568005",
+    appId: "1:864933568005:web:ee6b7dbf8d175479d6066c",
+    measurementId: "G-FEZ4DDRQV8"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
